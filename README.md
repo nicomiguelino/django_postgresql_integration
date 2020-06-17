@@ -15,7 +15,7 @@ pipenv install psycopg2
 
 ### Open psql and enter the following commands
 
-***Note:*** We've assumed that you've logged in using your PostgreSQL superuser account `postres`.
+***Note:*** We've assumed that you've logged in using your PostgreSQL superuser account `postgres`.
 
 ```sql
 CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypass';
